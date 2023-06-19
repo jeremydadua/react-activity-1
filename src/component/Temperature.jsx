@@ -20,14 +20,14 @@ const Temperature = () => {
 
     const tempIncrease = () =>{
       setTemperature(temperature + 1);
-      if(temperature == 35){
+      if(temperature === 35){
         setTemperature(temperature);
       }
     };
 
     const tempDecrease = () =>{
       setTemperature(temperature - 1);
-      if(temperature == -10){
+      if(temperature === -10){
         setTemperature(temperature);
       }
     };
